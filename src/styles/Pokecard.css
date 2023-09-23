@@ -1,0 +1,44 @@
+.Pokecard {
+  border-radius: 5px;
+  background-color: lightgrey;
+  width: 100%; /* Pokecards span full width of columns */
+  padding: 3px;
+  box-sizing: border-box;
+  /* Add any other styles for Pokecards */
+
+  /* Initial box-shadow (no shadow) */
+  box-shadow: none;
+  transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Add a box-shadow effect when hovering over .Pokecard */
+.Pokecard:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add your desired shadow properties here */
+}
+
+
+  .Pokecard-name {
+    color: blue;
+    text-align: center;
+  }
+  
+  .Pokecard-img {
+    display: block;
+    margin: 0 auto;
+    /* Add any other styles for Pokecard images */
+  
+    /* Initial transform (no rotation) */
+    transform: rotateY(0deg);
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Add a rotation effect when hovering over .Pokecard-img */
+  .Pokecard-img:hover {
+    transform: rotateY(180deg); /* Rotate 180 degrees on the Y-axis (horizontal) */
+  }
+  
+  
+  .Pokecard-type, .Pokecard-exp {
+    text-align: center;
+  }
+  

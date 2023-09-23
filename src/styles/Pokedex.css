@@ -1,0 +1,20 @@
+.Pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Pokecards span across and wrap */
+    gap: 5px; /* Gap between Pokecards */
+  }
+  
+  .Pokedex-title {
+    grid-column: 1 / -1; /* Title spans all columns */
+    padding: 10px;
+    text-align:center;
+    /* Add any other styles for Pokedex title */
+  }
+
+  .Pokedex-winner {
+    max-width: 100 vh;
+    background-color: green;
+    color: white;
+
+  }
+  
